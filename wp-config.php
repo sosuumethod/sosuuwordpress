@@ -24,27 +24,21 @@
 // (http://wpdocs.osdn.jp/%E7%94%A8%E8%AA%9E%E9%9B%86#.E3.83.86.E3.82.AD.E3.82.B9.E3.83.88.E3.82.A8.E3.83.87.E3.82.A3.E3.82.BF 参照)
 // を使用し、必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
-
-
-// AWSの設定
-define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJDSIXCZ6KNDPJCUA' );
-define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
-
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'heroku_d397ba2f16c56f5');
 
 /** MySQL データベースのユーザー名 */
-define('DB_USER', 'root');
+define('DB_USER', 'bbf5ad159a70bb');
 
 /** MySQL データベースのパスワード */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'bfcbf665');
 
 /** MySQL のホスト名 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define('DB_COLLATE', '');
@@ -58,14 +52,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'M`J$@GvLuvYA-){0+b;s`bqhfSZ2,(,kI7S|6Kzs+(5JG30Ulo{f}`dW9+6@%^sr');
-define('SECURE_AUTH_KEY',  ' @}V?J%@}1<iH~#$[`.m&Yg4+@V2<7s/OSAi`lhgaK5>0N(yDJcIe>>*}Vk^.$3}');
-define('LOGGED_IN_KEY',    's0OCP.ar1g?U!-fik[zE$9,-xWc0HI@H$|X!>=z_C1y8&$|<;<anU3ttyLI*H|,7');
-define('NONCE_KEY',        'X|EBILsI/)am*1u,H{0-5.C.Q}_?MwfBdwS:y?2K3zT+K Gv.tx#2;^Dli+{ffSS');
-define('AUTH_SALT',        '9[_ +I2I3n=w-A% 4rLEq=WCkHbL--m}$gXtoYa&e~X^*i-ip$G~$u6HQs]>uj;E');
-define('SECURE_AUTH_SALT', '(19vh6d 4;`A{n6S<MV07o!1yi}e5]kvz)ieF~l[wrWifqIo]*IygOtv ht@3/F2');
-define('LOGGED_IN_SALT',   '53:h+ <?9C&@$-Z]?/@w7T{*nRoaZgl76)}t($g2tJ^MeiM5vWHqML9G5q3RX!^!');
-define('NONCE_SALT',       '7`lIaJ3Q}3R71IwqH@[Cw5ohqt`brj7cTI*Fnx#W~gp)nM7Y_-xr1Xda^lE6BRnn');
+define('AUTH_KEY',         '+dxSK%3&,/Pr,%SZ+YIz+6EYDbyJ/,;6.,foE%D;Cu|(@lV~JM+FYG*w}VE8-=Z@');
+define('SECURE_AUTH_KEY',  'Hcp yXm%iL-Ul+X`.$UrT^ [aOj |-lL-)KWCjnch||?nsU^1^L)O%<-5qQJJU*a');
+define('LOGGED_IN_KEY',    ')jCaYIDo|{(F7PX5 Q(<i/E1Y|i|aoN_+O.-o *5LlpG^1H KgNI#XGO-x_eydG+');
+define('NONCE_KEY',        'QWJ_|C?Z#N`5RJz;p+$KhL+G`+tuV|v56QoQ0&f6za+_.e|!p=O[C}+FS!nHLbQ9');
+define('AUTH_SALT',        '@xhx/#bv3T;:$6t5pm/s_/+8gJ++C(_$2[Mh@G2-IXX[uUBMB4O{KMg}/j3 ~s,P');
+define('SECURE_AUTH_SALT', '@(3EHmd-m~O?d:/j2Z#[rPU!;b44I9coL:~|5uD4+X@|U?pGnYLsA-V!+byfoxB_');
+define('LOGGED_IN_SALT',   's=]CxL#h=4<>{|+PwY-n*C?)gt@:|0Q[dFwP$tGk6Ai+Zo[i+[x#GHEa.I<_N:U{');
+define('NONCE_SALT',       'I]fe}H5rxApm|vYRM`<p[=^DB56]-SCwKQtC%A+-E+(m_pLl--X7|^9-)aeTRFgP');
 
 /**#@-*/
 
