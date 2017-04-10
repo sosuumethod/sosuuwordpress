@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/*
+Theme URI: http://xeory.jp/extension_child/
+Template: xeory_extension
+Theme Name: XeoryExtension Child
+Version: 0.2.1
+*/
+/* all display
+-------------------------------------------------- */
+
+
+body.home #main_visual {
+  height: 300px !important;
+}
+
+body.home .wrap {
+  padding-top: 0px !important;
+}
+
+body.home #main_visual h2 {
+  margin-bottom: 20px;
+  padding-top: 100px;
+}
+
+
+body.home #main_visual {
+background-image: URL(writing.jpg);
+background-size: cover;
+height: 400px !important;
+}
+
+body.home #main_visual .start{
+  margin-top: 60px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+
+body/*.home #main_visual */.start p {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin-bottom: 48px;
+}
+
+body/*.home #main_visual*/ .start .d_btn a {
+  border-radius: 5px;
+  background: #47B39D;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all ease-in-out .3s;
+          transition: all ease-in-out .3s;
+  opacity: 1;
+  display: block;
+  width: 30%;
+  padding: 12px;
+  text-align: center;
+}
+body/*.home #main_visual*/ .start .d_btn a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/*以下は二個目のボタン作成*/
+
+.explain {
+    width:100%;
+    height:auto;
+    /*border:1px solid #000;*/
+    text-align: center;
+}
+
+
+.explain .start{
+  margin-top: 10px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+.explain .start p {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin-bottom: 48px;
+}
+
+.explain  .start .d_btn a {
+  border-radius: 5px;
+  background: #47B39D;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all ease-in-out .3s;
+          transition: all ease-in-out .3s;
+  opacity: 1;
+  display: block;
+  width: 180px;
+  padding: 12px;
+  text-align: center;
+}
+.explain  .start .d_btn a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+
+.front-loop h1{
+  color: #808080;
+}
+
+.front-loop h2{
+  color: #4A4A4A;
+}
+
+
+/*以下はボックス横並べ*/
+.test {
+    color: black;
+    width:33.3%;
+    height:auto;
+    padding:20px;
+    float:left;
+}
+.boxA {
+    width:100%;
+    height:auto;
+    /*border:1px solid #000;*/
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/*以上*/
+
+.test {
+  text-align: center;
+}
+
+.test i{
+  padding: 20px;
+}
+
+body.home .front-loop h2.midashi {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  margin: 0;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 24px;
+}
+
+
+
+
+h2, h1, p{
+  font-family: YuGothic;
+}
+
+.test h1{
+  font-size: 15px;
+  font-family: YuGothic;
+  /*"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif*/
+}
